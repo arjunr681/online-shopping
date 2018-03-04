@@ -8,6 +8,16 @@
   <name>onlineshopping Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+  
+  <!-- link backend project -->
+  
+  <dependency>
+    <groupId>com.arjun</groupId>
+    <artifactId>shoppingbackend</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </dependency>
+  
+  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

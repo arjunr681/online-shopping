@@ -68,6 +68,12 @@
     <h1>this dispalyed</h1>
        <%@ include file="contact.jsp" %>
     </c:if>
+    
+     <c:if test="${userClickProducts == true or userClickCategoryProducts == true}">
+    <h1>this dispalyed</h1>
+       <%@ include file="listProducts.jsp" %>
+    </c:if>
+    
     </div>
 
 <%@ include file="./commonApp/footer.jsp" %>
